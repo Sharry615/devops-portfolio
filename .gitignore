@@ -1,0 +1,13 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service-account*.json
+secrets/
+node_modules/
+__pycache__/
+*.log
