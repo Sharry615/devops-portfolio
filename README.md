@@ -11,13 +11,15 @@ DevOps Engineer focused on cloud infrastructure, CI/CD automation, container pla
 
 ### GCP Cloud Platform
 
-Production-oriented container platform architecture covering CI/CD, Cloud Run, Artifact Registry, Cloud SQL, external HTTPS load balancing, security and monitoring.
+Production-inspired container platform architecture covering CI/CD, Cloud Run, Artifact Registry, Cloud SQL, external HTTPS load balancing, security and monitoring.
 
 **Repository:** [gcp-cloud-platform](https://github.com/Sharry615/gcp-cloud-platform)
 
 ### AWS Cloud Platform
 
-Coming soon — containerized workloads, networking, managed databases, load balancing, CDN, security and observability.
+Sanitized AWS cloud platform architecture covering ECS, Docker, ECR, VPC, ALB, RDS, S3, CloudFront, Route 53, WAF, IAM and observability.
+
+Repository: [aws-cloud-platform](https://github.com/Sharry615/aws-cloud-platform)
 
 ### Kubernetes Platform
 
@@ -41,9 +43,9 @@ Coming soon — monitoring, dashboards, logging, alerting and operational troubl
 
 **Containers:** Docker, Kubernetes, Cloud Run, ECS
 
-**CI/CD:** Jenkins, Cloud Build, GitHub Actions, Bitbucket Pipelines
+**CI/CD:** Jenkins, Cloud Build, Bitbucket Pipelines
 
-**Infrastructure as Code:** Terraform, Ansible
+**Infrastructure as Code:** Terraform
 
 **Databases:** MySQL, PostgreSQL, Amazon RDS, Cloud SQL
 
