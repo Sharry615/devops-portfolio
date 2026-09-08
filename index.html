@@ -257,44 +257,97 @@
       </div>
     </section>
 
+
     <!-- Observability -->
     <section id="observability" class="section">
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">Observability</p>
-          <h2 class="section-title">Monitoring, Logs, Metrics and Alerts</h2>
+          <h2 class="section-title">Real Production Grafana Dashboards</h2>
           <p class="section-description">
-            Centralized monitoring using Grafana and Zabbix with alert notifications for production health.
+            Real production monitoring dashboards covering Cloud Run, Load Balancer,
+            Cloud SQL, API latency, request rate, availability, error rate and service-level health.
           </p>
         </div>
 
-        <div class="visual-grid">
-          <article class="visual-card">
-            <img src="assets/screenshots/grafana.svg" alt="Grafana dashboard screenshot" />
-            <div>
-              <h3>Grafana Dashboards</h3>
-              <p>Application metrics, infrastructure visibility and dashboard-based operations.</p>
+        <div class="dashboard-showcase">
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-cloudrun-live.png" alt="Live Cloud Run Grafana monitoring dashboard" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Live Monitoring</span>
+              <h3>Cloud Run & Database Overview</h3>
+              <p>
+                Cloud Run CPU utilization, API response latency, request rate,
+                database CPU, current DB connections, database response time,
+                total requests, status codes and error rate tracking.
+              </p>
             </div>
           </article>
 
-          <article class="visual-card">
-            <img src="assets/screenshots/zabbix.svg" alt="Zabbix monitoring screenshot" />
-            <div>
-              <h3>Zabbix Monitoring</h3>
-              <p>VM-level CPU, memory, disk, service health and infrastructure monitoring.</p>
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-dashboard-wide.png" alt="Grafana dashboard wide view" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Production Visibility</span>
+              <h3>Load Balancer, RPS & Availability</h3>
+              <p>
+                Request trends, active instances, availability percentage,
+                5xx error rate, load balancer status codes, Cloud Run RPS
+                and latency percentile monitoring.
+              </p>
             </div>
           </article>
 
-          <article class="visual-card">
-            <img src="assets/screenshots/cicd.svg" alt="CI/CD pipeline screenshot" />
-            <div>
-              <h3>CI/CD Pipelines</h3>
-              <p>Automated build, container image creation, deployment and release workflows.</p>
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-cloudrun-24h.png" alt="Cloud Run 24 hour Grafana dashboard" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">24 Hour View</span>
+              <h3>Cloud Run Performance Over Time</h3>
+              <p>
+                24-hour observability view for request spikes, latency movement,
+                response time changes, database usage and API traffic behavior.
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-api-services.png" alt="API and Cloud Run service Grafana dashboard" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Service Health</span>
+              <h3>Top APIs & Cloud Run Services</h3>
+              <p>
+                Top APIs by request rate, top services by RPS, service-level
+                error visibility, endpoint monitoring and production troubleshooting.
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-cloudsql-latency.png" alt="Cloud SQL and latency Grafana dashboard" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Database Monitoring</span>
+              <h3>Cloud SQL, Connections & Latency</h3>
+              <p>
+                Cloud SQL total connections, CPU utilization by instance,
+                slow API endpoints, P50/P95/P99 latency and response trend analysis.
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard-feature-card">
+            <img src="assets/screenshots/grafana-database-overview.png" alt="Database overview Grafana dashboard" loading="lazy" />
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Operational View</span>
+              <h3>Database & API Health Overview</h3>
+              <p>
+                Database response time, request status distribution,
+                API request volume, Cloud Run health and alert-oriented production dashboards.
+              </p>
             </div>
           </article>
         </div>
       </div>
     </section>
+
 
     <!-- Migration -->
     <section class="section">
