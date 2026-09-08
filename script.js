@@ -102,37 +102,37 @@ const projects = [
 const architectureItems = [
   {
     title: "ALT Balaji / Kutingg Architecture",
-    image: "assets/architecture/alt-balaji.png",
+    image: "assets/architecture/alt-balaji.svg",
     text: "Cloud DNS, HTTPS Load Balancer, Cloud Armor, Cloud Run, Cloud SQL, Redis, Kafka and BigQuery."
   },
   {
     title: "PTI Architecture",
-    image: "assets/architecture/pti.png",
+    image: "assets/architecture/pti.svg",
     text: "Production infrastructure, deployment flow, monitoring and cloud operations architecture."
   },
   {
     title: "Mastii.in Architecture",
-    image: "assets/architecture/mastii.png",
+    image: "assets/architecture/mastii.svg",
     text: "Media platform cloud infrastructure with monitoring, deployment and service operations."
   },
   {
     title: "SMS Architecture",
-    image: "assets/architecture/sms.png",
+    image: "assets/architecture/sms.svg",
     text: "Messaging platform infrastructure with application services, monitoring and alerting."
   },
   {
     title: "CNBC Arabia Architecture",
-    image: "assets/architecture/cnbc.png",
+    image: "assets/architecture/cnbc.svg",
     text: "Media/news cloud architecture with deployment, monitoring and infrastructure operations."
   },
   {
     title: "IKOMG Architecture",
-    image: "assets/architecture/ikomg.png",
+    image: "assets/architecture/ikomg.svg",
     text: "Cloud Run, Cloud SQL, MongoDB Atlas, VPC networking and Artifact Registry-based deployment."
   },
   {
     title: "Art of Living Architecture",
-    image: "assets/architecture/art-of-living.png",
+    image: "assets/architecture/art-of-living.svg",
     text: "Application/CMS infrastructure with CI/CD, monitoring, cloud networking and security."
   }
 ];
