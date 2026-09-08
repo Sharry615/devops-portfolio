@@ -1,212 +1,358 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="DevOps & Cloud Engineering Portfolio — GCP, AWS, Azure, Cloud Run, CI/CD, Kubernetes, Terraform and Observability.">
-  <title>DevOps Portfolio | Suresh Sharma</title>
-  <link rel="stylesheet" href="style.css">
-<style>.profile-card{display:flex;align-items:center;gap:22px;background:#0d1b2d;border:1px solid #26425f;border-radius:16px;padding:22px}.profile-photo{width:150px;height:150px;object-fit:cover;border-radius:50%;border:3px solid #7c5cff}.profile-info h2{margin:0;font-size:28px}.profile-info h3{margin:4px 0 10px;color:#b8c8db}.profile-info p{color:#9db0c9}.profile-contact a{color:#a695ff;font-weight:700;text-decoration:none}</style></head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Suresh Sharma | DevOps & Cloud Engineer</title>
+
+  <meta name="description" content="Professional DevOps and Cloud Engineer portfolio of Suresh Sharma. AWS, GCP, Azure, Kubernetes, Cloud Run, CI/CD, monitoring, observability and production infrastructure." />
+  <meta name="author" content="Suresh Sharma" />
+
+  <meta property="og:title" content="Suresh Sharma | DevOps & Cloud Engineer" />
+  <meta property="og:description" content="7+ years of DevOps and Cloud experience across AWS, GCP and Azure." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
 <body>
-  <header class="nav">
-    <a class="brand" href="#top">DevOps Portfolio</a>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#architecture">Architecture</a>
-      <a href="#observability">Observability</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+  <div class="page-bg"></div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="brand">
+        <span class="brand-mark">SS</span>
+        <span class="brand-text">Suresh Sharma</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#observability">Observability</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">DEVOPS & CLOUD ENGINEERING</p>
-        <h1>Building secure, scalable and observable cloud platforms.</h1>
-        <p class="lead">
-          Production-focused DevOps portfolio covering GCP, AWS, Azure, CI/CD,
-          container platforms, infrastructure automation, security and centralized observability.
-        </p>
-        <div class="actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn" href="https://github.com/Sharry615" target="_blank" rel="noreferrer">GitHub Profile</a>
-        </div>
-      </div>
-      <div class="hero-panel">
-        <div class="profile-card">
-          <div class="profile-photo-wrap">
-            <img class="profile-photo" src="profile.png" alt="Profile photo">
-            <span class="profile-status">AVAILABLE</span>
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="pulse-dot"></span>
+            Available for DevOps, Cloud, SRE and Infrastructure roles
           </div>
+
+          <h1>
+            Suresh Sharma
+            <span>DevOps & Cloud Engineer</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Building secure, scalable and production-ready cloud infrastructure
+            across <strong>AWS</strong>, <strong>GCP</strong> and <strong>Azure</strong>
+            with CI/CD automation, observability and reliable operations.
+          </p>
+
+          <div class="hero-tags">
+            <span>7+ Years Experience</span>
+            <span>AWS</span>
+            <span>GCP</span>
+            <span>Azure</span>
+            <span>Kubernetes</span>
+            <span>Cloud Run</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+            <a href="https://github.com/Sharry615" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="profile-glow"></div>
+          <img src="profile.png" alt="Suresh Sharma profile photo" class="profile-photo" />
+
           <div class="profile-info">
-            <p class="eyebrow">PROFILE</p>
+            <p class="label">PROFILE</p>
             <h2>Suresh Sharma</h2>
-            <p class="profile-role">DevOps & Cloud Engineer</p>
-            <p class="profile-summary">7+ years across AWS, GCP and Azure, focused on production infrastructure, automation and cloud operations.</p>
-            <div class="profile-meta">
-              <span><b>7+</b> Years</span>
-              <span><b>AWS</b> <b>GCP</b> <b>Azure</b></span>
+            <p>DevOps & Cloud Engineer</p>
+          </div>
+
+          <div class="profile-stats">
+            <div>
+              <strong>7+</strong>
+              <span>Years</span>
             </div>
-            <a class="profile-phone" href="tel:+919813283838">+91 9813283838</a>
-            <div class="profile-actions">
-              <a href="https://github.com/Sharry615" target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a href="#contact">Contact ↘</a>
+            <div>
+              <strong>3</strong>
+              <span>Clouds</span>
+            </div>
+            <div>
+              <strong>24x7</strong>
+              <span>Ops</span>
             </div>
           </div>
+
+          <div class="profile-stack">
+            <span>CI/CD</span>
+            <span>Cloud</span>
+            <span>Containers</span>
+            <span>Security</span>
+            <span>Monitoring</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Metrics -->
+    <section class="metrics section-tight">
+      <div class="container metrics-grid">
+        <div class="metric-card">
+          <strong>7+</strong>
+          <span>Years DevOps / Cloud</span>
         </div>
-        <div class="profile-focus">
-          <span>CI/CD</span><span>Cloud</span><span>Containers</span><span>Security</span><span>Observability</span>
+        <div class="metric-card">
+          <strong>3</strong>
+          <span>Cloud Platforms</span>
+        </div>
+        <div class="metric-card">
+          <strong>7+</strong>
+          <span>Production Projects</span>
+        </div>
+        <div class="metric-card">
+          <strong>24x7</strong>
+          <span>Monitoring & Alerts</span>
         </div>
       </div>
     </section>
 
-    <section class="stats">
-      <div><strong>7</strong><span>Featured platforms</span></div>
-      <div><strong>3</strong><span>Cloud ecosystems</span></div>
-      <div><strong>2</strong><span>Monitoring layers</span></div>
-      <div><strong>24/7</strong><span>Alerting model</span></div>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container split-section">
+        <div>
+          <p class="section-kicker">About Me</p>
+          <h2 class="section-title">Production-focused DevOps and Cloud Engineering</h2>
+        </div>
+
+        <div class="section-text">
+          <p>
+            I am a DevOps and Cloud Engineer with 7+ years of focused experience
+            in cloud infrastructure, CI/CD automation, deployment operations,
+            monitoring and production support across AWS, GCP and Azure.
+          </p>
+          <p>
+            My work includes containerized deployments, Cloud Run and Kubernetes
+            workloads, database connectivity, VPC networking, security hardening,
+            load balancing, observability and cloud migration support.
+          </p>
+        </div>
+      </div>
     </section>
 
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Technical Stack</p>
+          <h2 class="section-title">Cloud, DevOps, CI/CD and Observability Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Cloud Platforms</h3>
+            <p>AWS, Google Cloud Platform, Microsoft Azure</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Containers</h3>
+            <p>Docker, Kubernetes, GKE, Cloud Run, containerized deployments</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>CI/CD</h3>
+            <p>Jenkins, GitHub Actions, Cloud Build, Artifact Registry, automated releases</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Infrastructure</h3>
+            <p>VPC, Load Balancers, Cloud Armor, NAT, IAM, SSL, DNS, networking</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <p>Cloud SQL, MySQL, PostgreSQL, MongoDB Atlas, Redis, backups</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Monitoring</h3>
+            <p>Grafana, Zabbix, Cloud Monitoring, Cloud Logging, Telegram alerts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
     <section id="projects" class="section">
-      <div class="section-head">
-        <p class="eyebrow">FEATURED WORK</p>
-        <h2>Production-oriented DevOps projects</h2>
-        <p>Each project is documented as a sanitized portfolio repository. No application source code, credentials or production secrets are published.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project featured">
-          <div class="project-top"><span class="number">01</span><span class="tag">GCP</span></div>
-          <h3>ALT Balaji / Kutingg.com</h3>
-          <p>Highly available OTT platform architecture with Cloud Run, Cloud SQL, Redis, Kafka, BigQuery, WAF and CI/CD.</p>
-          <div class="chips"><span>Cloud Run</span><span>Cloud SQL</span><span>Kafka</span><span>Redis</span><span>WAF</span></div>
-          <a href="https://github.com/Sharry615/alt-balaji-kutingg-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Featured Work</p>
+          <h2 class="section-title">Production DevOps Case Studies</h2>
+          <p class="section-description">
+            Real-world cloud infrastructure, deployment automation, monitoring and production operations experience.
+          </p>
+        </div>
 
-        <article class="project">
-          <div class="project-top"><span class="number">02</span><span class="tag">GCP</span></div>
-          <h3>PTI</h3>
-          <p>Subscription platform with three Cloud Run services, Cloud Storage frontend hosting, MySQL, HTTPS Load Balancer and WAF.</p>
-          <div class="chips"><span>Jenkins</span><span>Cloud Run</span><span>MySQL</span><span>WAF</span></div>
-          <a href="https://github.com/Sharry615/pti-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
-
-        <article class="project">
-          <div class="project-top"><span class="number">03</span><span class="tag">GCP</span></div>
-          <h3>Masti</h3>
-          <p>OTT platform architecture with two Cloud Run services, Cloud Storage frontend, database, HTTPS Load Balancer and WAF.</p>
-          <div class="chips"><span>Cloud Run</span><span>Cloud Storage</span><span>WAF</span><span>Grafana</span></div>
-          <a href="https://github.com/Sharry615/masti-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
-
-        <article class="project">
-          <div class="project-top"><span class="number">04</span><span class="tag">GCP</span></div>
-          <h3>SMS — Subscription Management</h3>
-          <p>OTT/media subscription management platform using Cloud Run, PostgreSQL, Redis, Kafka, ClickHouse and centralized observability.</p>
-          <div class="chips"><span>Go</span><span>PostgreSQL</span><span>Redis</span><span>Kafka</span><span>ClickHouse</span></div>
-          <a href="https://github.com/Sharry615/sms-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
-
-        <article class="project">
-          <div class="project-top"><span class="number">05</span><span class="tag">GCP</span></div>
-          <h3>CNBC</h3>
-          <p>Multi-environment platform with production and staging Cloud Run services, Cloud SQL PostgreSQL, Compute Engine, Storage, Load Balancing and WAF.</p>
-          <div class="chips"><span>Cloud Run</span><span>Cloud SQL</span><span>Compute Engine</span><span>WAF</span></div>
-          <a href="https://github.com/Sharry615/cnbc-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
-
-        <article class="project">
-          <div class="project-top"><span class="number">06</span><span class="tag">OTT</span></div>
-          <h3>IKOMG</h3>
-          <p>OTT platform with separate Subscription and API Cloud Run services, Cloud Build CI/CD and centralized Grafana observability.</p>
-          <div class="chips"><span>Cloud Build</span><span>Cloud Run</span><span>Grafana</span><span>GCP</span></div>
-          <a href="https://github.com/Sharry615/ikomg-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
-
-        <article class="project">
-          <div class="project-top"><span class="number">07</span><span class="tag">OTT</span></div>
-          <h3>Art of Living</h3>
-          <p>OTT platform with Subscription and API Cloud Run services, Cloud Build CI/CD, Grafana dashboards and centralized alerting.</p>
-          <div class="chips"><span>Cloud Build</span><span>Cloud Run</span><span>Grafana</span><span>GCP</span></div>
-          <a href="https://github.com/Sharry615/artofliving-devops" target="_blank" rel="noreferrer">View repository →</a>
-        </article>
+        <div class="projects-grid" id="projectsGrid"></div>
       </div>
     </section>
 
-    <section id="architecture" class="section dark-section">
-      <div class="section-head">
-        <p class="eyebrow">ARCHITECTURE</p>
-        <h2>From traffic ingress to application and data layers</h2>
-        <p>Architecture diagrams are maintained inside the individual project repositories.</p>
-      </div>
-      <div class="architecture-grid">
-        <figure class="arch-card wide">
-          <img src="https://raw.githubusercontent.com/Sharry615/alt-balaji-kutingg-devops/main/architecture/alt-balaji-kutingg-system-architecture.png" alt="ALT Balaji and Kutingg system architecture" loading="lazy">
-          <figcaption><strong>ALT Balaji / Kutingg</strong><a href="https://github.com/Sharry615/alt-balaji-kutingg-devops/tree/main/architecture" target="_blank" rel="noreferrer">Open architecture docs →</a></figcaption>
-        </figure>
-        <figure class="arch-card">
-          <img src="https://raw.githubusercontent.com/Sharry615/sms-devops/main/architecture/sms-devops-system-architecture.png" alt="SMS system architecture" loading="lazy">
-          <figcaption><strong>SMS</strong><a href="https://github.com/Sharry615/sms-devops/tree/main/architecture" target="_blank" rel="noreferrer">Open docs →</a></figcaption>
-        </figure>
-        <figure class="arch-card">
-          <img src="https://raw.githubusercontent.com/Sharry615/cnbc-devops/main/architecture/cnbc-devops-system-architecture.png" alt="CNBC system architecture" loading="lazy">
-          <figcaption><strong>CNBC</strong><a href="https://github.com/Sharry615/cnbc-devops/tree/main/architecture" target="_blank" rel="noreferrer">Open docs →</a></figcaption>
-        </figure>
+    <!-- Architecture -->
+    <section id="architecture" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Architecture</p>
+          <h2 class="section-title">Real Project Architecture Diagrams</h2>
+          <p class="section-description">
+            Add your actual architecture diagram images inside <code>assets/architecture/</code>.
+          </p>
+        </div>
+
+        <div class="visual-grid" id="architectureGrid"></div>
       </div>
     </section>
 
+    <!-- CI/CD -->
+    <section id="cicd" class="section">
+      <div class="container split-section">
+        <div>
+          <p class="section-kicker">Automation</p>
+          <h2 class="section-title">CI/CD Deployment Workflow</h2>
+          <p class="section-text">
+            Automated deployment pipelines using GitHub, Jenkins, Cloud Build,
+            Artifact Registry, Docker and Cloud Run/Kubernetes environments.
+          </p>
+        </div>
+
+        <div class="pipeline-card">
+          <div class="pipeline-step">GitHub</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">Build</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">Artifact Registry</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">Cloud Run / Kubernetes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Observability -->
     <section id="observability" class="section">
-      <div class="section-head">
-        <p class="eyebrow">CENTRALIZED OBSERVABILITY</p>
-        <h2>One monitoring model across the portfolio</h2>
-        <p>Grafana handles logs and metrics. Zabbix monitors VM/infrastructure health. Both feed Telegram alerting.</p>
-      </div>
-      <div class="obs-flow">
-        <div class="obs-node"><b>PTI</b><small>Logs + Metrics</small></div>
-        <div class="obs-node"><b>Masti</b><small>Logs + Metrics</small></div>
-        <div class="obs-node"><b>SMS</b><small>Logs + Metrics</small></div>
-        <div class="obs-node"><b>CNBC</b><small>Logs + Metrics</small></div>
-        <div class="obs-node"><b>IKOMG</b><small>Logs + Metrics</small></div>
-        <div class="obs-node"><b>Art of Living</b><small>Logs + Metrics</small></div>
-      </div>
-      <div class="monitor-grid">
-        <div class="monitor-card"><span class="icon">G</span><h3>Grafana</h3><p>Centralized dashboards, application logs and platform metrics across projects.</p></div>
-        <div class="monitor-card"><span class="icon">Z</span><h3>Zabbix</h3><p>VM and infrastructure monitoring: CPU, memory, disk, network and availability.</p></div>
-        <div class="monitor-card"><span class="icon">T</span><h3>Telegram</h3><p>Alert notification channel integrated with both Grafana and Zabbix.</p></div>
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Observability</p>
+          <h2 class="section-title">Monitoring, Logs, Metrics and Alerts</h2>
+          <p class="section-description">
+            Centralized monitoring using Grafana and Zabbix with alert notifications for production health.
+          </p>
+        </div>
+
+        <div class="visual-grid">
+          <article class="visual-card">
+            <img src="assets/screenshots/grafana.png" alt="Grafana dashboard screenshot" />
+            <div>
+              <h3>Grafana Dashboards</h3>
+              <p>Application metrics, infrastructure visibility and dashboard-based operations.</p>
+            </div>
+          </article>
+
+          <article class="visual-card">
+            <img src="assets/screenshots/zabbix.png" alt="Zabbix monitoring screenshot" />
+            <div>
+              <h3>Zabbix Monitoring</h3>
+              <p>VM-level CPU, memory, disk, service health and infrastructure monitoring.</p>
+            </div>
+          </article>
+
+          <article class="visual-card">
+            <img src="assets/screenshots/cicd.png" alt="CI/CD pipeline screenshot" />
+            <div>
+              <h3>CI/CD Pipelines</h3>
+              <p>Automated build, container image creation, deployment and release workflows.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="skills" class="section skills-section">
-      <div class="section-head">
-        <p class="eyebrow">TECHNOLOGY STACK</p>
-        <h2>Infrastructure, delivery and operations</h2>
-      </div>
-      <div class="skill-groups">
-        <div><h3>Cloud</h3><p>Google Cloud Platform · AWS · Azure</p></div>
-        <div><h3>Containers</h3><p>Docker · Kubernetes · Cloud Run · Artifact Registry</p></div>
-        <div><h3>Infrastructure</h3><p>Terraform · VPC · Load Balancing · Cloud Storage · Cloud SQL</p></div>
-        <div><h3>CI/CD</h3><p>Jenkins · Cloud Build · GitHub · Bitbucket</p></div>
-        <div><h3>Observability</h3><p>Grafana · Zabbix · Cloud Logging · Cloud Monitoring · Telegram</p></div>
-        <div><h3>Security</h3><p>Cloud Armor / WAF · IAM · Secret Manager · Network controls</p></div>
+    <!-- Migration -->
+    <section class="section">
+      <div class="container feature-band">
+        <div>
+          <p class="section-kicker">Cloud Migration</p>
+          <h2>AWS to GCP Migration & Multi-Cloud Operations</h2>
+          <p>
+            Experience supporting infrastructure modernization, cloud migration,
+            deployment automation, database connectivity, network configuration
+            and production workload operations across multiple cloud platforms.
+          </p>
+        </div>
+
+        <div class="cloud-list">
+          <span>AWS</span>
+          <span>GCP</span>
+          <span>Azure</span>
+          <span>Cloud Run</span>
+          <span>Kubernetes</span>
+          <span>Cloud SQL</span>
+          <span>MongoDB Atlas</span>
+          <span>Grafana</span>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <div>
-        <p class="eyebrow">CONTACT</p>
-        <h2>Explore the engineering work</h2>
-        <p>Project repositories contain the architecture, deployment, monitoring, troubleshooting and security documentation.</p>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-card">
+        <p class="section-kicker">Contact</p>
+        <h2>Let’s build reliable cloud infrastructure</h2>
+        <p>
+          Open to DevOps, Cloud Engineer, SRE, Infrastructure and Cloud Migration opportunities.
+        </p>
+
+        <div class="contact-actions">
+          <a href="https://github.com/Sharry615" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+          <a href="mailto:YOUR-EMAIL@example.com" class="btn btn-ghost">Email Me</a>
+          <a href="tel:+919813283838" class="btn btn-ghost">Call</a>
+        </div>
+
+        <p class="contact-note">
+          Replace LinkedIn and email placeholders in <code>index.html</code>.
+        </p>
       </div>
-      <a class="btn primary" href="https://github.com/Sharry615" target="_blank" rel="noreferrer">Open GitHub Profile →</a>
     </section>
   </main>
 
-  <footer>
-    <span>DevOps Portfolio</span>
-    <span>Documentation-only engineering showcase</span>
-    <a href="https://github.com/Sharry615/devops-portfolio" target="_blank" rel="noreferrer">Repository</a>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Suresh Sharma. DevOps & Cloud Engineer.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
