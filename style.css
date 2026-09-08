@@ -1452,3 +1452,123 @@ code {
     padding: 18px 22px 24px;
   }
 }
+
+/* Real architecture and dashboard layout */
+.real-architecture-card {
+  overflow: hidden;
+  margin-bottom: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.62));
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.35);
+}
+
+.real-section-title {
+  padding: 28px 28px 16px;
+}
+
+.real-section-title span,
+.real-dashboard-card span {
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  color: #bbf7d0;
+  background: rgba(34, 197, 94, 0.10);
+  border: 1px solid rgba(34, 197, 94, 0.24);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.real-section-title h3 {
+  color: #e5e7eb;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin-bottom: 8px;
+}
+
+.real-section-title p {
+  color: #94a3b8;
+  max-width: 1000px;
+}
+
+.real-architecture-card img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.real-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.real-dashboard-card {
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.58));
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.28);
+}
+
+.real-dashboard-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top left;
+  background: #111827;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.real-dashboard-card:hover img {
+  transform: scale(1.025);
+  filter: brightness(1.08);
+}
+
+.real-dashboard-card div {
+  padding: 20px;
+}
+
+.real-dashboard-card h3 {
+  color: #e5e7eb;
+  font-size: 1.12rem;
+  margin-bottom: 7px;
+}
+
+.real-dashboard-card p {
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.observability-showcase {
+  display: grid;
+  gap: 24px;
+}
+
+.observability-showcase a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 28px;
+  background: #111827;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+}
+
+.observability-showcase img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: contain;
+  object-position: top center;
+  background: #111827;
+}
+
+@media (max-width: 900px) {
+  .real-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
