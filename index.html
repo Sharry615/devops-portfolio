@@ -258,6 +258,7 @@
     </section>
 
 
+
     <!-- Observability -->
     <section id="observability" class="section">
       <div class="container">
@@ -265,85 +266,126 @@
           <p class="section-kicker">Observability</p>
           <h2 class="section-title">Real Production Grafana Dashboards</h2>
           <p class="section-description">
-            Real production monitoring dashboards covering Cloud Run, Load Balancer,
-            Cloud SQL, API latency, request rate, availability, error rate and service-level health.
+            Real monitoring dashboards built for Cloud Run, Load Balancer, Cloud SQL,
+            API performance, service health, latency, RPS, availability and error tracking.
           </p>
         </div>
 
         <div class="dashboard-showcase">
+
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-cloudrun-live.png" alt="Live Cloud Run Grafana monitoring dashboard" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/01-cloudrun-overview.png" alt="Cloud Run Overview Grafana Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">Live Monitoring</span>
-              <h3>Cloud Run & Database Overview</h3>
+              <span class="dashboard-badge">Dashboard 01</span>
+              <h3>Cloud Run — Overview</h3>
               <p>
                 Cloud Run CPU utilization, API response latency, request rate,
                 database CPU, current DB connections, database response time,
-                total requests, status codes and error rate tracking.
+                total requests and error rate.
               </p>
             </div>
           </article>
 
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-dashboard-wide.png" alt="Grafana dashboard wide view" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/02-cloudrun-live-view.png" alt="Cloud Run Live Monitoring Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">Production Visibility</span>
-              <h3>Load Balancer, RPS & Availability</h3>
+              <span class="dashboard-badge">Dashboard 02</span>
+              <h3>Cloud Run — Live Monitoring View</h3>
               <p>
-                Request trends, active instances, availability percentage,
-                5xx error rate, load balancer status codes, Cloud Run RPS
-                and latency percentile monitoring.
+                Real-time service visibility for Cloud Run APIs, request traffic,
+                latency movement, database activity and application-level health.
               </p>
             </div>
           </article>
 
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-cloudrun-24h.png" alt="Cloud Run 24 hour Grafana dashboard" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/03-cloudrun-24h-overview.png" alt="Cloud Run 24 Hour Overview Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">24 Hour View</span>
-              <h3>Cloud Run Performance Over Time</h3>
+              <span class="dashboard-badge">Dashboard 03</span>
+              <h3>Cloud Run — 24 Hour Production Overview</h3>
               <p>
-                24-hour observability view for request spikes, latency movement,
-                response time changes, database usage and API traffic behavior.
+                24-hour production trend analysis for API traffic, request spikes,
+                latency behavior, database response time and error percentage.
               </p>
             </div>
           </article>
 
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-api-services.png" alt="API and Cloud Run service Grafana dashboard" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/04-cloudrun-database-overview.png" alt="Cloud Run Database Overview Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">Service Health</span>
-              <h3>Top APIs & Cloud Run Services</h3>
+              <span class="dashboard-badge">Dashboard 04</span>
+              <h3>Database — CPU, Connections & Response Time</h3>
               <p>
-                Top APIs by request rate, top services by RPS, service-level
-                error visibility, endpoint monitoring and production troubleshooting.
+                Database CPU utilization, active connection count, response time,
+                API status distribution and production database health tracking.
               </p>
             </div>
           </article>
 
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-cloudsql-latency.png" alt="Cloud SQL and latency Grafana dashboard" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/05-api-service-rps.png" alt="API and Cloud Run Service RPS Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">Database Monitoring</span>
-              <h3>Cloud SQL, Connections & Latency</h3>
+              <span class="dashboard-badge">Dashboard 05</span>
+              <h3>API & Cloud Run Services — RPS</h3>
+              <p>
+                Top APIs by request rate, Cloud Run service RPS, service-level
+                traffic distribution and high-traffic endpoint visibility.
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard-feature-card">
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/06-lb-cloudrun-health.png" alt="Load Balancer and Cloud Run Health Dashboard" loading="lazy" />
+            </div>
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Dashboard 06</span>
+              <h3>Load Balancer & Cloud Run — Health</h3>
+              <p>
+                Active instances, LB request rate, HTTP status codes, availability,
+                Cloud Run requests per second and P50/P95/P99 latency monitoring.
+              </p>
+            </div>
+          </article>
+
+          <article class="dashboard-feature-card">
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/07-cloudsql-latency.png" alt="Cloud SQL and Latency Dashboard" loading="lazy" />
+            </div>
+            <div class="dashboard-content">
+              <span class="dashboard-badge">Dashboard 07</span>
+              <h3>Cloud SQL — Connections, CPU & Latency</h3>
               <p>
                 Cloud SQL total connections, CPU utilization by instance,
-                slow API endpoints, P50/P95/P99 latency and response trend analysis.
+                slow APIs, endpoint response latency and database performance metrics.
               </p>
             </div>
           </article>
 
           <article class="dashboard-feature-card">
-            <img src="assets/screenshots/grafana-database-overview.png" alt="Database overview Grafana dashboard" loading="lazy" />
+            <div class="dashboard-image-wrap">
+              <img src="assets/screenshots/08-api-errors-services.png" alt="API Errors and Cloud Run Service Health Dashboard" loading="lazy" />
+            </div>
             <div class="dashboard-content">
-              <span class="dashboard-badge">Operational View</span>
-              <h3>Database & API Health Overview</h3>
+              <span class="dashboard-badge">Dashboard 08</span>
+              <h3>API Errors & Cloud Run Service Health</h3>
               <p>
-                Database response time, request status distribution,
-                API request volume, Cloud Run health and alert-oriented production dashboards.
+                Top APIs by 5xx errors, Cloud Run services by RPS,
+                endpoint-level error visibility and incident troubleshooting views.
               </p>
             </div>
           </article>
+
         </div>
       </div>
     </section>

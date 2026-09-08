@@ -867,3 +867,118 @@ code {
     aspect-ratio: 16 / 10;
   }
 }
+
+/* Premium real Grafana dashboard showcase */
+.dashboard-showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.dashboard-feature-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 28px;
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.62));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
+}
+
+.dashboard-feature-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, #38bdf8, #22c55e);
+  z-index: 3;
+}
+
+.dashboard-image-wrap {
+  position: relative;
+  overflow: hidden;
+  background: #0b1120;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.dashboard-image-wrap::after {
+  content: "Real Grafana Dashboard";
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  color: #dbeafe;
+  background: rgba(2, 6, 23, 0.72);
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  backdrop-filter: blur(10px);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dashboard-feature-card img {
+  width: 100%;
+  aspect-ratio: 16 / 8.8;
+  object-fit: cover;
+  object-position: top left;
+  background: #111827;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.dashboard-feature-card:hover img {
+  transform: scale(1.025);
+  filter: brightness(1.08);
+}
+
+.dashboard-content {
+  padding: 22px;
+}
+
+.dashboard-badge {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 12px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  color: #bbf7d0;
+  background: rgba(34, 197, 94, 0.10);
+  border: 1px solid rgba(34, 197, 94, 0.24);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dashboard-content h3 {
+  margin-bottom: 8px;
+  color: #e5e7eb;
+  font-size: 1.18rem;
+}
+
+.dashboard-content p {
+  color: #94a3b8;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 980px) {
+  .dashboard-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-feature-card img {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 560px) {
+  .dashboard-content {
+    padding: 18px;
+  }
+
+  .dashboard-feature-card img {
+    aspect-ratio: 16 / 10;
+  }
+}
